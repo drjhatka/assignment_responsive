@@ -4,12 +4,47 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 1000
 
-.mulish-extrabold, .mulish-light {
+.mulish-extrabold, .mulish-light, .mulish-bold {
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
   font-style: normal;
+}
+.mulish-extrabold{
+    font-weight: 900;
 }
 .mulish-light {
     font-weight: 400;
   }
+.mulish-bold {
+    font-weight: 700;
+}
+
+.main_wrapper{
+    font-family: Mulish;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    align-items: center;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+}
+.left_nav_menus a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.logo_container{
+    display: flex;
+    gap: 5%;
+}
+
+.red_text{
+    color:red;
+}
