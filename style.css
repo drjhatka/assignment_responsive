@@ -57,6 +57,7 @@
 /* 2nd section- Explore your travel */
 .search_div_container{
     display: flex;
+    padding: 10px;
     position: relative;
     flex-direction: column;
     justify-content: center;
@@ -309,6 +310,7 @@
     .logo_container_mobile{
         display: flex;
     }
+    
   .mobile_menu{
 
     display: flex;
@@ -340,13 +342,21 @@
     display: none;
   }
   .hidden_menus{
-    width: 90%;
+    width: 80%;
+    margin: auto;
     display: none;
+    text-decoration: none;
     flex-direction: column;
     position: absolute;
     left: 0;
     justify-content: center;
     
+}
+.hidden_menus li{
+    box-shadow: 1px 2px 1px;
+}
+.hidden_menus a{
+    text-decoration: none;
   }
   #menus:checked ~ .hidden_menus{
     display: inline;
